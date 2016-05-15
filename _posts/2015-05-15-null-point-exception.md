@@ -2,8 +2,8 @@
 layout:     post
 title:      "\"为什么我的程序抛Null Point Exception\""
 subtitle:   " \"why NPE?\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+date:       2016-05-15 17:36:00
+author:     "jeanlyn"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - spark
