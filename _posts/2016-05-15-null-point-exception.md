@@ -2,7 +2,7 @@
 layout:     post
 title:      "\"为什么我的程序抛Null Point Exception\""
 subtitle:   " \"why NPE?\""
-date:       2016-05-15 17:36:00
+date:       2016-05-15
 author:     "jeanlyn"
 header-img: "img/post-bg-2015.jpg"
 tags:
