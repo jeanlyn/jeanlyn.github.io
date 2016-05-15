@@ -1,0 +1,97 @@
+# Site settings
+title: Jeanlyn's Blog
+SEOTitle: jeanlyn | less is more
+header-img: img/home-bg-o.jpg
+email: jeanlyn92@gmail.com
+description: "less is more"
+keyword: "jeanlyn"
+url: "http://jeanlyn.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: true
+weibo_username:     jeanlyn
+#zhihu_username:     jeanlyn
+github_username:    jeanlyn
+#twitter_username:  huxpro
+#facebook_username:  jeanlyn
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: jeanlyn
+
+# Duoshuo settings
+#duoshuo_username: jeanlyn
+# Share component is depend on Comment so we can NOT use share only.
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 2b0059c0284ea1d5c3679e1eca4b4410
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "这个家伙很懒,什么都没留下"
+sidebar-avatar: /img/touxiang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "xiaoguang",
+        href: "http://xuerong.net   "
+    },{
+        title: "shangwen",
+        href: "http://hackershell.cn"
+    },{
+        title: "piaoyu",
+        href: "http://piaoyu2013.sinaapp.com/"
+    },{
+        title: "jeanlyn",
+        href: "http://jeanlyn.sinaapp.com"
+    }
+]
